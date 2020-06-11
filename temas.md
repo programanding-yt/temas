@@ -1,15 +1,11 @@
 # TEMAS
 ## 0: Configura macOS para Desarrollo
-### - Homebrew
-Homebrew es un 'package manager' (gestor de paquetes) que nos permite instalar, actualizar y eliminar aplicaciones en macOS más fácilmente
-
-```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-Una vez instalado, ejecuta el siguiente comando para actualizar
-```bash
-brew update
-```
-## Programas:
-
+## 1: Introducción a JS
+### 1.1: Qué es Javascript
+### 1.2: Variables, Operadores
+### 1.3: Estructura básica en JS
+## 2: Introducción a React
+## 3: Jest
+## 4: Typescript
+## 5: Vue
+## 6: Redux
