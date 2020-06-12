@@ -1,4 +1,5 @@
 # 0: Configura macOS para Desarrollo
+A continuación te presento una configuración sencilla para desarrollo web. Si bien, podrías utilizar únicamente la Terminal y cualquier navegador para empezar, te aseguro que estos programas harán más sencilla y grata tu experiencia. 
 ## [Homebrew](https://brew.sh)
 Homebrew es un 'package manager' (gestor de paquetes) que nos permite instalar, actualizar y eliminar aplicaciones en macOS más fácilmente
 ```bash
@@ -9,9 +10,9 @@ Una vez instalado, ejecuta el siguiente comando para actualizar
 brew update
 ```
 ## Programas
-- Visual Studio Code
-- Chrome/Firefox/Brave
-- iTerm2
+- [Visual Studio Code](https://code.visualstudio.com): IDE muy customizable y poderoso
+- Chrome/Firefox/Brave: Te recomiendo instalar varios navegadores para probar tus aplicaciones web
+- [iTerm2](https://www.iterm2.com): Terminal en esteroides 🦾
 ```bash
 brew cask install \
  visual-studio-code \
@@ -29,7 +30,7 @@ Instala Oh my zsh! para una configuración más amigable y productiva de zsh
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-## Node.js
+## [Node.js](https://nodejs.org/)
 Node.js es un runtime de Javascript, nos permite ejecutar código JS sin necesidad de un navegador. Recomiendo utilizar Node Version Manager:
 ```bash
 # Instalar nvm
@@ -59,8 +60,44 @@ nvm install x.xx.xx
 nvm alias default x.xx.xx
 ``` 
 ## Opcionales
-- Rectangle
-- Docker
-- Slack
-- Postman
-- Github Desktop
+Estos programas no son fundamentales, pero los recomiendo ampliamente
+- [Rectangle](https://rectangleapp.com): manejo de ventanas más sencillo
+- [Docker](https://www.docker.com/products/docker-desktop): gestor de Contenedores
+- [Slack](https://slack.com): herramienta de comunicación colaborativa
+- [Postman](https://www.postman.com): interacción con APIs 
+- [Github Desktop](https://desktop.github.com): control de versiones de manera gráfica
+```bash
+ brew cask install \
+  rectangle \
+  docker \
+  slack \
+  postman \
+  github
+```
+## Git
+Asegúrate de configurar el archivo ~/.gitconfig, agregar tu información, y algunos atajos de los comandos más comunes. También puedes agregar tus propios atajos personalizados. Te dejo una lista con algunas sugerencias:
+```bash
+# Abrir el archivo '~/.gitconfig' en el editor Vim
+vim ~/.gitconfig
+```
+
+```
+[personal]
+  name = Nombre Apellido
+  email = tucorreo@correo.com
+[github]
+  user = usuario
+[alias]
+ a = add
+ cm = commit -m
+ s = status
+ pom = push origin master
+ pum = pull origin master
+ co = checkout
+ cob = checkout -b
+ l = log
+```
+Para salir de Vim, presiona la tecla ```Esc``` y escribe ```:wq```, luego presiona Enter.
+## Conclusión
+¡Y eso es todo! Déjame en los comentarios cualquier pregunta o sugerencia, ¿qué programas utilizas tú para desarrollar?, ¿prefieres emacs, sublime text, atom, notepad++? Recuerda que todo es elección personal, experimenta con distintos programas, lo importante es tu comodidad.
+¡Nos vemos en la próxima! 🌊🏄🏽‍♂️ 
