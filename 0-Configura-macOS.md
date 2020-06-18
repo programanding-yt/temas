@@ -3,7 +3,7 @@ A continuación te presento una configuración sencilla para desarrollo web. Si 
 ## [Homebrew](https://brew.sh)
 Homebrew es un 'package manager' (gestor de paquetes) que nos permite instalar, actualizar y eliminar aplicaciones en macOS más fácilmente
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 Una vez instalado, ejecuta el siguiente comando para actualizar
 ```bash
@@ -61,18 +61,20 @@ nvm alias default x.xx.xx
 ``` 
 ## Opcionales
 Estos programas no son fundamentales, pero los recomiendo ampliamente
-- [Rectangle](https://rectangleapp.com): manejo de ventanas más sencillo
 - [Docker](https://www.docker.com/products/docker-desktop): gestor de Contenedores
 - [Slack](https://slack.com): herramienta de comunicación colaborativa
 - [Postman](https://www.postman.com): interacción con APIs 
 - [Github Desktop](https://desktop.github.com): control de versiones de manera gráfica
+- [Rectangle](https://rectangleapp.com): manejo de ventanas más sencillo
+- [Flux](https://justgetflux.com/)
 ```bash
  brew cask install \
   rectangle \
   docker \
   slack \
   postman \
-  github
+  github \
+  flux
 ```
 ## Git
 Asegúrate de configurar el archivo ~/.gitconfig, agregar tu información, y algunos atajos de los comandos más comunes. También puedes agregar tus propios atajos personalizados. Te dejo una lista con algunas sugerencias:
