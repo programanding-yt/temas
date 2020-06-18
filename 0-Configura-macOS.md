@@ -16,7 +16,7 @@ brew update
 ```bash
 brew cask install \
  visual-studio-code \
- chrome \
+ google-chrome \
  firefox \
  brave-browser \
  iterm2
