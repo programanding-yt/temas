@@ -66,7 +66,7 @@ Estos programas no son fundamentales, pero los recomiendo ampliamente
 - [Postman](https://www.postman.com): interacción con APIs 
 - [Github Desktop](https://desktop.github.com): control de versiones de manera gráfica
 - [Rectangle](https://rectangleapp.com): manejo de ventanas más sencillo
-- [Flux](https://justgetflux.com/)
+- [Flux](https://justgetflux.com/): software para disminuir el cansancio en los ojos
 ```bash
  brew cask install \
   rectangle \
