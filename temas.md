@@ -1,5 +1,5 @@
 # TEMAS
-## 0: Configura macOS para Desarrollo [v]
+## 0: <del>Configura macOS para Desarrollo [v]</del>
 ## 1: Introducción a JS
 ### 1.1: Qué es Javascript
 ### 1.2: Variables, Operadores
