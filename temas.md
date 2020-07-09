@@ -9,4 +9,4 @@
 ## 4: Typescript
 ## 5: Vue
 ## 6: Redux
-## 7: Introducción a Git
+## 7: <del>Introducción a Git [v]</del>
